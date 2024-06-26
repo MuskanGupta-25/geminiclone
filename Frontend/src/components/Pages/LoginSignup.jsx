@@ -133,7 +133,7 @@ const LoginSignup = () => {
             window.location.replace("/");
         }
         else {
-            alert(responseData.error);
+            alert(responseData.errors);
         }
     };
 
